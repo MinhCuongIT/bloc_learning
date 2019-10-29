@@ -4,7 +4,7 @@ import './bloc.dart';
 
 class CouterblocBloc extends Bloc<CouterblocEvent, CouterblocState> {
   @override
-  CouterblocState get initialState => InitialCouterblocState(currentCouter: 0);
+  CouterblocState get initialState => InitialCouterblocState();
 
   @override
   Stream<CouterblocState> mapEventToState(
