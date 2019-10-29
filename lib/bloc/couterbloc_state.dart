@@ -4,10 +4,8 @@ import 'package:flutter/widgets.dart';
 abstract class CouterblocState extends Equatable {}
 
 class InitialCouterblocState extends CouterblocState {
-  final int currentCouter;
-  InitialCouterblocState({@required this.currentCouter});
   @override
-  List<Object> get props => [currentCouter];
+  List<Object> get props => [];
 }
 
 class AddState extends CouterblocState {
